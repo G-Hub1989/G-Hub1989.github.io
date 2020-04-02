@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Quando&display=swap');
+body {
+	background-color: #ccffff;
+}
+#wrapper {
+	width: 90%;
+	max-width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div {
+	display: block;
+}
+
+h1 {
+	font-family: Quando, sans-serif;
+	color: #7CEBAB;
+	font-style: italic;
+	text-align: center;
+}
+p {
+	font-family: Montserrat;
+	background-color: #7CEBAB;
+	color: white;
+	text-align: center;
+}
+img {
+	width: 100%;
+}
+
+.row1 {
+	width: 90%;
+	display: block;
+	margin: auto;
+	padding-top: 25px;
+}
+
+nav {
+	text-align: center;
+}
+
+#two_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#left {
+	background-color: #E582A2;
+	border: 1px	black	solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+
+#right {
+	background-color: #E55B88;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%
+}
+
+.clearfix: after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+header {
+
+}
+nav {
+
+}
+aside {
+
+}
+article {
+
+}
+footer {
+
+}
+div {
+
+}
+section {
+	
+}
