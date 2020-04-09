@@ -32,10 +32,14 @@ img {
 
 #About {
 	text-align: center;
+	background-color: #7CEBAB;
+	columns: white;
 }
 
 #why {
-	text-align: center;
+	text-align: center;	
+	background-color: #7CEBAB;
+	columns: white;
 }
 
 .column {
