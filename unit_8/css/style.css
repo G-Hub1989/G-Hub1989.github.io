@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Quando&display=swap');
+
 body {
-	background-color: white;
+	background-color: #ABFFF9;
 }
 
 #wrapper {
@@ -8,6 +9,7 @@ body {
 	max-width: 1080px;
 	margin-left: auto;
 	margin-right: auto;
+	background-color: #7CEBAB;
 }
 
 div {
@@ -16,14 +18,14 @@ div {
 
 h1 {
 	font-family: Quando, sans-serif;
-	color: #7CEBAB;
+	color: #ABFFF9;
 	font-style: italic;
 	text-align: center;
 }
 p {
 	font-family: Montserrat;
 	background-color: #7CEBAB;
-	color: white;
+	color: #ABFFF9;
 	text-align: center;
 }
 img {
@@ -36,13 +38,13 @@ img {
 #About {
 	text-align: center;
 	background-color: #7CEBAB;
-	columns: white;
+	columns: #ABFFF9;
 }
 
 #why {
 	text-align: center;	
 	background-color: #7CEBAB;
-	columns: white;
+	columns: #ABFFF9;
 }
 
 .column {
