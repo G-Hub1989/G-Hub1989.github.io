@@ -1,15 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Quando&display=swap');
 
+#hbackground {
+	background-color: #90E8C9;
+}
+
 body {
-	background-color: #ABFFF9;
+	background-color: #90D6E8;
+	font-family: Montserrat;
+	font-size: 16px;
 }
 
 #wrapper {
 	width: 90%;
-	max-width: 1080px;
+	max-width: 75%;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #7CEBAB;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	padding: 15px;
+	font-size: 1.5em;
 }
 
 div {
@@ -18,38 +31,46 @@ div {
 
 h1 {
 	font-family: Quando, sans-serif;
-	color: #ABFFF9;
+	color: white;
 	font-style: italic;
 	text-align: center;
 }
+
+h2 {
+	color: white;
+	background-color: #90E8C9;
+	font-size: 2em;
+}
+
 p {
 	font-family: Montserrat;
 	background-color: #7CEBAB;
-	color: #ABFFF9;
-	text-align: center;
+	color: white;
+	text-align: left;
 }
 img {
 	width: 100%;
 }
 .Shop {
 	text-align: center;
+	display: block;
 }
 
 #About {
 	text-align: center;
 	background-color: #7CEBAB;
-	columns: #ABFFF9;
+	columns: white;
 }
 
 #why {
 	text-align: center;	
 	background-color: #7CEBAB;
-	columns: #ABFFF9;
+	columns: white;
 }
 
 .column {
 	float: left;
-	width: 33.33%;
+	width: 31.33%;
 	padding: 5px;
 }
 
@@ -66,6 +87,18 @@ nav {
 #two_column {
 	padding: 20px;
 }
+
+.pic2 {
+	background: "images/collection.JPG";
+}
+
+@media screen only and (max-width: 400px) {	
+	.column {
+		float: none;
+	}
+}
+
+body {
 
 .clearfix:: after {
 	visibility: hidden;
