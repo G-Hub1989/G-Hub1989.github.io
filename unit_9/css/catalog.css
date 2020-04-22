@@ -2,8 +2,20 @@
 
 body {
 	background-color: #286580;
+	color: #4E7180;
 	font-family: Montserrat;
 	font-size: 16px;
+	text-align: center;
+}
+
+title {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #4E7180;
+	padding: 15px;
 }
 
 #wrapper {
@@ -13,3 +25,69 @@ body {
 	margin-right: auto;
 	background-color: #9CE1FF;
 }
+
+#nav {
+	text-align: center;
+	padding: 15px;
+	font-size: 1.5em;
+}
+
+div {
+	display: block;
+}
+
+.a {
+	float: left;
+	width: 10%;
+}
+
+.ra::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.b {
+	float: left;
+	width: 10%;
+}
+
+.rb::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.c {
+	float: left;
+	width: 10%;
+}
+
+.rc::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.d {
+	float: left;
+	width: 10%;
+}
+
+.rd::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.e {
+	float: left;
+	width: 10%;
+}
+
+.re::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
