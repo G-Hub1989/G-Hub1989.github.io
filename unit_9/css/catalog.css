@@ -46,3 +46,10 @@ aside {
 }
 
 .clear { clear: both; }
+
+@media screen and (max-width: 1160px) {
+	.thumbnail {
+		float: none;
+		text-align: right;
+	}
+}

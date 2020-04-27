@@ -86,17 +86,23 @@ nav {
 }
 
 .pic2 {
-	background: "images/collection.JPG";
+	background-image: url(images/collection.JPG);
 }
 
-@media screen only and (min-width: 320px) and (max-width: 480px) {	
+@media screen and (max-width: 770px) {	
 	.column {
 		float: none;
-		width:100%;
+		width:90%;
 	}
 
 	footer {
 		font-size: .8em;
 		text-align: center;
+	}
+}
+
+@media screen and (max-width: 990px) {
+	nav {
+		text-align: left;
 	}
 }
