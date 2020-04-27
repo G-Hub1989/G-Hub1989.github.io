@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Quando&display=swap');
+
+#hbackground {
+	background-color: #64BFDE;
+}
+
+body {
+	background-color: #286580;
+	font-family: Montserrat;
+	font-size: 16px;
+}
+
+#wrapper {
+	width: 90%;
+	max-width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #9CE1FF;
+}
+
+a {
+	text-decoration: none;
+	color: #4E7180;
+	padding: 15px;
+	font-size: 1.5em;
+}
+
+h1 {
+	font-family: Quando, sans-serif;
+	color: #4E7180;
+	font-style: italic;
+	text-align: center;
+}
+
+h2 {
+	color: #4E7180;
+	background-color: #9CE1FF;
+	font-size: 2em;
+}
+
+p {
+	font-family: Montserrat;
+	background-color: #9CE1FF;
+	color: #4E7180;
+	text-align: center;
+}
+
+#slogan {
+	text-align: center;
+
+}
+img {
+	width: 100%;
+}
+
+#Shop {
+	text-align: center;
+	display: block;
+}
+
+#About {
+	text-align: center;
+	background-color: #9CE1FF;
+}
+
+#why {
+	text-align: center;	
+	width: 90%;
+	max-width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.column {
+	float: left;
+	width: 31.33%;
+	padding: 5px;
+}
+
+nav {
+	text-align: center;
+}
+
+#two_column {
+	padding: 20px;
+}
+
+.pic2 {
+	background: "images/collection.JPG";
+}
+
+@media screen only and (min-width: 320px) and (max-width: 480px) {	
+	.column {
+		float: none;
+		width:100%;
+	}
+
+	footer {
+		font-size: .8em;
+		text-align: center;
+	}
+}
