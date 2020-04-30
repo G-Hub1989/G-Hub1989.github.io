@@ -1,0 +1,11 @@
+header {
+	background-image: url("Oakland_Skyline1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+nav {
+	float: left;
+}

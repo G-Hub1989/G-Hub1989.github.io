@@ -105,4 +105,9 @@ nav {
 	nav {
 		text-align: left;
 	}
+
+	a {
+		padding: 5px;
+		font-size: .9em;
+	}
 }
