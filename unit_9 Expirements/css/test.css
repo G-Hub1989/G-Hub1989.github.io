@@ -1,11 +1,27 @@
-header {
-	background-image: url("Oakland_Skyline1.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+body {
+  margin: 0;
 }
 
-nav {
-	float: left;
+.hero-image {
+  background-image: url("http://2040.planbayarea.org/sites/default/files/2020-02/4_4x%20Oakland%20Skyline%20with%20Tribune%20Tower_0.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.nav-text {
+  text-align: center;
+  columns: red;
 }
